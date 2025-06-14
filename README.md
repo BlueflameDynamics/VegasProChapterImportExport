@@ -10,10 +10,10 @@ VEGAS Pro needs support from third-party apps like _MediaInfo_ in order to impor
 With '[Custom] Import-Mp4Chapters.cs' and the associated config file, you can import embedded chapters directly from within VEGAS Pro. While the standard Vegas Pro script 'Export Chapters.cs' will export Markers as chapters its content varies depending upon the output file type. The '[Custom] Export Chapters with Names.cs' exports Markers with uniform content.  
 
 #Import Script History
-- The `[Custom] Import-Mp4Chapters.cs` script based upon the original script at:
+- The `[Custom] Import-Mp4Chapters.cs` script is based upon the original script at:
  https://github.com/HimmDawg/VegasChapterImportFromObs
 
-This version is has been extended to support both mp4\m4v files, includes time_base in the marker position
+This version has been extended to support both mp4\m4v files, includes time_base in the marker position
 calculation for generalized use overcoming the origials assumed 1/1000 time_base limitation. Additionally this version includes chapter titles as marker titles.
 
 # Setup of Import Script
@@ -36,6 +36,7 @@ calculation for generalized use overcoming the origials assumed 1/1000 time_base
 - download the `[Custom] Export Chapters with Names.cs` script and the `[Custom] Import-Mp4Chapters.cs.config`
     - you can rename the script.
 - place the file in same location as the Import script.
+    - you may need to `Rescan Script Menu Folder` as with the import script. 
 
 # Export Script Features
 - you may export to an XML, TXT, or CSV file. 
