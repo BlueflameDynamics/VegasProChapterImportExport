@@ -33,7 +33,7 @@ calculation for generalized use overcoming the origials assumed 1/1000 time_base
 **The markers wont take the track position into consideration.**
 
 # Setup of Export Script
-- download the `[Custom] Export Chapters with Names.cs` script and the `[Custom] Import-Mp4Chapters.cs.config`
+- download the `[Custom] Export Chapters with Names.cs` script
     - you can rename the script.
 - place the file in same location as the Import script.
     - you may need to `Rescan Script Menu Folder` as with the import script. 
