@@ -3,7 +3,7 @@ Vegas Pro Scripts for Chapter Import\Export
 
 # What does it do?
 These scripts work with VEGAS Pro Video Editor to provide a means of Importing & Exporting Markers
-use for mp4\m4v chapters.
+used for mp4\m4v chapters.
 
 # What problem does this solve?
 VEGAS Pro needs support from third-party apps like _MediaInfo_ in order to import chapter markers from third-party apps and the process of importing chapters can be laborious.
