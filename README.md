@@ -44,7 +44,6 @@ calculation for generalized use overcoming the origials assumed 1/1000 time_base
 
 # Remarks
 The Import script was tested with VEGAS Pro 21.0 & 22.0, no guarantee that this will work with other versions.
-The Import script assumes all time_base values are fractions with a numerator of 1 
-i.e. 1/1000, 1/30000, 1/90000 etc. If this is not the case further changes will be needed.
+For more infotmation about 'Timebases' see the Timebase PDF file.
 
 
