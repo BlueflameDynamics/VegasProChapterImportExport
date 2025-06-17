@@ -35,7 +35,7 @@ calculation for generalized use overcoming the origials assumed 1/1000 time_base
 # Setup of Export Script
 - download the `[Custom] Export Chapters with Names.cs` script
     - you can rename the script.
-- place the file in same location as the Import script.
+- place the file in the same location as the Import script.
     - you may need to `Rescan Script Menu Folder` as with the import script. 
 
 # Export Script Features
