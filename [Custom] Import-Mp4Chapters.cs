@@ -87,7 +87,7 @@ public class EntryPoint
 		process.StartInfo.RedirectStandardOutput = true;
 		process.StartInfo.UseShellExecute = false;
 		process.StartInfo.CreateNoWindow = true;
-        process.Start();
+		process.Start();
 		string output = process.StandardOutput.ReadToEnd();
 		process.WaitForExit();
 		return output;
@@ -99,9 +99,9 @@ public class EntryPoint
 		for (int i = 0; i < chapters.Count; i++)
 		{
 			Chapter chapter = chapters[i];
-            long d = Convert.ToInt64(chapter.time_base.Substring(2));
+			long d = Convert.ToInt64(chapter.time_base.Substring(2));
 			long startMs = ((chapter.start/d)*1000);
-            Timecode position = Timecode.FromMilliseconds(startMs);
+			Timecode position = Timecode.FromMilliseconds(startMs);
 			Marker marker = new Marker(position, chapter.tags["title"]);
 			result[i] = marker;
 		}
