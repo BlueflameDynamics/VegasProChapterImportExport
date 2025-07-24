@@ -30,7 +30,7 @@ calculation for generalized use overcoming the origials assumed 1/1000 time_base
     - if the script is not visible here, hit `Rescan Script Menu Folder`
     - else you can use it from here now
 
-**The markers wont take the track position into consideration.**
+**The markers won't take the track position into consideration.**
 
 # Setup of Export Script
 - download the `[Custom] Export Chapters with Names.cs` script
