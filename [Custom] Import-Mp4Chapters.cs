@@ -2,17 +2,21 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Text.Json;
+using Newtonsoft.Json;
 using System.Windows.Forms;
 using ScriptPortal.Vegas;
 
 //Custom Vegas Pro Script
 //Based upon https://github.com/HimmDawg/VegasChapterImportFromObs
 //Which only works when time_base = 1/1000.
-//Created 2025\06\10 by Randy Turner, Version: 1.0
+//Created 2026\11\22 by Randy Turner, Version: 1.1
 //Imports mp4/m4v Chapters as Titled Markers using FFProbe.
 //This version extended to include time_base in position calculation
 //allowing general use on mp4\m4v files.
+//Requires FFProbe to be installed and in the system path.
+//FFProbe is part of the FFmpeg project, which can be downloaded from https://ffmpeg.org/download.html
+//Newtonsoft.Json Replaces System.Text.JSON in Vegas Pro 23 and later due to version compatibility issues with System.Memory.dll.
+//Newtonsoft.Json can be installed via NuGet or downloaded from https://www.newtonsoft.com/json.
 
 public class EntryPoint
 {
@@ -71,7 +75,7 @@ public class EntryPoint
 		string metadata = RunFFProbe(filePath);
 		if (!string.IsNullOrEmpty(metadata))
 		{
-			return JsonSerializer.Deserialize<ChapterList>(metadata);
+			return JsonConvert.DeserializeObject<ChapterList>(metadata);
 		}
 		else
 		{
