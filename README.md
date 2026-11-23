@@ -9,8 +9,13 @@ used for mp4\\m4v chapters.
 
 # What problem does this solve?
 
+<<<<<<< HEAD
 VEGAS Pro needs support from third-party apps like *MediaInfo* in order to import chapter markers from third-party apps and the process of importing chapters can be laborious.
-With '\[Custom] Import-Mp4Chapters.cs' and the associated config file, you can import embedded chapters directly from within VEGAS Pro. While the standard Vegas Pro script 'Export Chapters.cs' will export Markers as chapters its content varies depending upon the output file type. The '\[Custom] Export Chapters with Names.cs' exports Markers with uniform content.
+With '[Custom] Import-Mp4Chapters.cs' and the associated config file, you can import embedded chapters directly from within VEGAS Pro. While the standard Vegas Pro script 'Export Chapters.cs' will export Markers as chapters its content varies depending upon the output file type. The '\[Custom] Export Chapters with Names.cs' exports Markers with uniform content.
+=======
+#Import Script History
+- The `[Custom] Import-Mp4Chapters.cs` script is based upon the original script by: HimmDawg - VegasChapterImportFromObs and has superseded it.
+>>>>>>> 6db93f1a2aa0e739794dba6a32995c4169b61ce0
 
 \#Import Script History
 
