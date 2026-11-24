@@ -10,24 +10,24 @@ used for mp4\\m4v chapters.
 # What problem does this solve?
 
 VEGAS Pro needs support from third-party apps like *MediaInfo* in order to import chapter markers from third-party apps and the process of importing chapters can be laborious.
-With '[Custom] Import-Mp4Chapters.cs' and the associated config file, you can import embedded chapters directly from within VEGAS Pro. While the standard Vegas Pro script 'Export Chapters.cs' will export Markers as chapters its content varies depending upon the output file type. The '\[Custom] Export Chapters with Names.cs' exports Markers with uniform content.
+With '\[Custom] Import-Mp4Chapters.cs' and the associated config file, you can import embedded chapters directly from within VEGAS Pro. While the standard Vegas Pro script 'Export Chapters.cs' will export Markers as chapters its content varies depending upon the output file type. The '\[Custom] Export Chapters with Names.cs' exports Markers with uniform content.
 
 \#Import Script History
 
-* The `[Custom] Import-Mp4Chapters.cs` script is based upon the original script at:
+* The `\[Custom] Import-Mp4Chapters.cs` script is based upon the original script at:
 https://github.com/HimmDawg/VegasChapterImportFromObs
 
 This version has been extended to support both mp4\\m4v files, includes time\_base in the marker position
-calculation for generalized use overcoming the origials assumed 1/1000 time\_base limitation. Additionally this version includes chapter titles as marker titles.
+calculation for generalized use overcoming the original's assumed 1/1000 time\_base limitation. Additionally this version includes chapter titles as marker titles.
 
 # Setup of Import Script
 
 * install `ffprobe` and add it to your PATH (e.g. use winget like: https://winstall.app/apps/Gyan.FFmpeg , it'll automatically add the executable to PATH)
 * install 'Newtonsoft.Json.dll' (.NET Framework 4.5) in the Program Files\\Vegas Pro folder.
-* download the `[Custom] Import-Mp4Chapters.cs` script and the `[Custom] Import-Mp4Chapters.cs.config`
+* download the `\[Custom] Import-Mp4Chapters.cs` script and the `\[Custom] Import-Mp4Chapters.cs.config`
 
   * you can rename the script, but make sure that the config file has the same name, followed by `.config`
-* place both files in `C:\Program Files\VEGAS\VEGAS Pro x.0\Script Menu`
+* place both files in `C:\\Program Files\\VEGAS\\VEGAS Pro x.0\\Script Menu`
 
   * if not available, choose either of the locations listed here https://help.magix-hub.com/video/vegas/21/en/content/topics/external/vegasscriptfaq.html#1.10
 
@@ -45,7 +45,7 @@ calculation for generalized use overcoming the origials assumed 1/1000 time\_bas
 
 # Setup of Export Script
 
-* download the `\\\[Custom] Export Chapters with Names.cs` script
+* download the `\[Custom] Export Chapters with Names.cs` script
 
   * you can rename the script.
 * place the file in the same location as the Import script.
