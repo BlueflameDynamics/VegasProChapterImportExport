@@ -14,7 +14,7 @@ With '[Custom] Import-Mp4Chapters.cs' and the associated config file, you can im
 
 \#Import Script History
 
-* The `\\\[Custom] Import-Mp4Chapters.cs` script is based upon the original script at:
+* The `[Custom] Import-Mp4Chapters.cs` script is based upon the original script at:
 https://github.com/HimmDawg/VegasChapterImportFromObs
 
 This version has been extended to support both mp4\\m4v files, includes time\_base in the marker position
@@ -27,7 +27,7 @@ calculation for generalized use overcoming the origials assumed 1/1000 time\_bas
 * download the `[Custom] Import-Mp4Chapters.cs` script and the `[Custom] Import-Mp4Chapters.cs.config`
 
   * you can rename the script, but make sure that the config file has the same name, followed by `.config`
-* place both files in `C:\\\\Program Files\\\\VEGAS\\\\VEGAS Pro x.0\\\\Script Menu`
+* place both files in `C:\Program Files\VEGAS\VEGAS Pro x.0\Script Menu`
 
   * if not available, choose either of the locations listed here https://help.magix-hub.com/video/vegas/21/en/content/topics/external/vegasscriptfaq.html#1.10
 
