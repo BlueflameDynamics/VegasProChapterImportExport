@@ -24,7 +24,7 @@ calculation for generalized use overcoming the origials assumed 1/1000 time\_bas
 
 * install `ffprobe` and add it to your PATH (e.g. use winget like: https://winstall.app/apps/Gyan.FFmpeg , it'll automatically add the executable to PATH)
 * install 'Newtonsoft.Json.dll' (.NET Framework 4.5) in the Program Files\\Vegas Pro folder.
-* download the `\\\[Custom] Import-Mp4Chapters.cs` script and the `\\\[Custom] Import-Mp4Chapters.cs.config`
+* download the `[Custom] Import-Mp4Chapters.cs` script and the `[Custom] Import-Mp4Chapters.cs.config`
 
   * you can rename the script, but make sure that the config file has the same name, followed by `.config`
 * place both files in `C:\\\\Program Files\\\\VEGAS\\\\VEGAS Pro x.0\\\\Script Menu`
