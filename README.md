@@ -60,7 +60,7 @@ calculation for generalized use overcoming the original's assumed 1/1000 time\_b
 # Remarks
 
 The Import script was tested with VEGAS Pro 21.0, 22.0, 23.0,  and 2026 no guarantee that this will work with other versions.
-For more information about 'Timebases' see the Timebase PDF file.
+For more information about 'Time bases' see the Time base PDF file.
 Newtonsoft.Json Replaces System.Text.JSON in Vegas Pro 23 and later due to version compatibility issues with System.Memory.dll.
 Newtonsoft.Json can be installed via NuGet or downloaded from https://www.newtonsoft.com/json.
 
